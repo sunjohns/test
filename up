@@ -53,6 +53,5 @@ upstream  miotstore_go_backend  {
 }
 
 upstream miotstore_go_preview_backend {
-    server 10.162.17.52:9896      max_fails=3 fail_timeout=5s; #c4-mijia-preview00.bj
     server 10.162.22.9:9896   max_fails=3 fail_timeout=5s; #c4-mijia-preview01.bj
 }

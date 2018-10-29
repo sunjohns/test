@@ -1,5 +1,4 @@
 upstream  miotstore_go_backend  {
-    server 10.162.11.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver00.bj
     server 10.162.11.33:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver01.bj 
     server 10.162.12.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver02.bj
     server 10.162.12.13:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver03.bj

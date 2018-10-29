@@ -1,0 +1,58 @@
+upstream  miotstore_go_backend  {
+    server 10.162.11.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver00.bj
+    server 10.162.11.33:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver01.bj 
+    server 10.162.12.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver02.bj
+    server 10.162.12.13:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver03.bj
+    server 10.162.15.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver04.bj
+    server 10.162.15.13:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver05.bj
+    server 10.162.16.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver06.bj
+    server 10.162.16.30:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver07.bj
+    server 10.162.17.11:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver08.bj
+    server 10.162.17.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver09.bj
+    #server 10.132.53.21:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver10.bj
+    server 10.132.53.22:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver11.bj
+    server 10.132.53.23:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver12.bj
+    server 10.132.53.24:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver13.bj
+    server 10.132.53.25:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver14.bj
+    server 10.132.53.26:9896    max_fails=3 fail_timeout=5s; #c4-mijia-goserver15.bj
+    server 10.162.11.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order00.bj
+    server 10.162.11.53:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order01.bj
+    server 10.162.12.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order02.bj
+    server 10.162.12.33:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order03.bj
+    server 10.162.12.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order04.bj
+    server 10.162.12.53:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order05.bj
+    server 10.162.15.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order06.bj
+    server 10.162.15.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order07.bj
+    server 10.162.16.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order08.bj
+    server 10.162.16.51:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order09.bj
+    server 10.162.16.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order10.bj
+    server 10.162.17.31:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order11.bj
+    server 10.162.17.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order12.bj
+    server 10.162.17.51:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order13.bj
+    #server 10.162.18.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order14.bj
+    #server 10.162.18.51:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order15.bj
+    #server 10.162.18.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order16.bj
+    #server 10.162.21.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order17.bj
+    #server 10.162.21.51:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order18.bj
+    #server 10.162.21.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order19.bj
+    #server 10.162.22.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order20.bj
+    #server 10.162.22.51:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order21.bj
+    #server 10.162.22.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order22.bj
+    #server 10.162.23.11:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order23.bj
+    #server 10.162.23.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order24.bj
+    #server 10.162.23.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order25.bj
+    #server 10.162.23.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order26.bj
+    #server 10.162.24.12:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order27.bj
+    #server 10.162.24.32:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order28.bj
+    #server 10.162.24.52:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order29.bj
+    #server 10.162.21.14:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order30.bj
+    #server 10.162.31.45:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order31.bj
+    #server 10.162.31.46:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order32.bj
+    #server 10.162.31.47:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order33.bj
+    #server 10.162.33.3:9896    max_fails=3 fail_timeout=5s; #c4-mijia-order34.bj
+}
+
+upstream miotstore_go_preview_backend {
+    server 10.162.17.52:9896      max_fails=3 fail_timeout=5s; #c4-mijia-preview00.bj
+    server 10.162.22.9:9896   max_fails=3 fail_timeout=5s; #c4-mijia-preview01.bj
+}
